@@ -1,19 +1,20 @@
 # Ex15 Largest Element in BST
-## DATE: 12.03.2025
+## DATE: 
 ## AIM:
 To Write a c program to find the largest value in a Binary Search Tree.
 
 ## Algorithm
-1. Initialize a pointer to the root of the BST.
-2. Move to the right child in a loop while it exists.
-3. Stop when the right child is NULL.
+1. Initialize a pointer to the root of the BST. 
+2. Move to the right child in a loop while it exists. 
+3. Stop when the right child is NULL. 
 4. Return the current node’s value as the largest.
+
 ## Program:
 ```
 /*
 Program to find and display the priority of the operator in the given Postfix expression
-Developed by: Berjin Shabeck
-RegisterNumber:  212222240018
+Developed by: H.Berjin Shabeck
+RegisterNumber: 212222240018
 */
 #include <stdio.h> 
 #include <stdlib.h> 
@@ -46,7 +47,13 @@ void largest(struct node *root)
        root = root->right; 
    } 
    printf("\nLargest value is %d", root->info); 
-}
+} 
+EX.NO : 3(E) 
+LARGEST ELEMENT IN BST 
+DATE : 
+  
+  
+ 
 /* 
  * Main Function 
  */ 
@@ -71,8 +78,9 @@ return 0;
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/48608535-2ba3-44fd-b2c1-5c75391a1d80)
+![image](https://github.com/user-attachments/assets/cce50287-ff96-4495-bcb5-0b47bbd5cb5e)
 
 
 ## Result:
+
 Thus, the C program to find the largest value in a Binary Search Tree is implemented successfully.
